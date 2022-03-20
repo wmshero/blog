@@ -5,6 +5,8 @@ tags: ['js']
 categories: 'js'
 ---
 
+点击这里[Object.defineProperty](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty)，了解更多
+
 
 `Object.defineProperty(obj, 'key', descriptor);`
 
@@ -33,7 +35,7 @@ if (a === 1 && a === 2 && a === 3) {
 }
 ```
 
-# 2. console.log(_+_+_+_+) 输出 abc...z 
+# 2. `console.log(_+_+_+_+)` 输出 abc...z 
 
 利用 `Object.defineProperty`和`ASCII`码
 ```js
