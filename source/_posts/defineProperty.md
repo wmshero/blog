@@ -1,8 +1,8 @@
 ---
 title: Object.defineProperty
 date: 2022-03-10 23:00:12
-tags: ['js']
-categories: 'js'
+tags: ['javascript']
+categories: 'javascript'
 ---
 
 
@@ -18,6 +18,7 @@ categories: 'js'
 * `set`
 
 # 1. 使 `a === 1 && a === 2 && a === 3` 为true
+
 ```js
 var _default=0
 Object.defineProperty(window, 'a', {

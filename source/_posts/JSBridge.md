@@ -1,8 +1,8 @@
 ---
 title: JSBridge
 date: 2022-03-08 13:46:28
-tags: [JSBridge,'js']
-categories: 'js'
+tags: [JSBridge,'javascript']
+categories: 'javascript'
 ---
 
 JSBridge **给JavaScript提供调用Native功能的接口**， 让混合开发中的【前端部分】可以方便地使用地址位置、摄像头深知支付等 Native 功能。
