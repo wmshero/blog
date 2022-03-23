@@ -1,9 +1,12 @@
 ---
 title: js基础
 date: 2022-03-13 15:37:16
-tags: ['js']
-categories: js
+tags: ['javascript']
+categories: 'javascript'
 ---
+
+[思维导图](https://www.yuque.com/u2417328/wm/atd0ic)
+[其他地方](https://1494601749.gitbook.io/wmspace/)
 
 # 预编译
 
