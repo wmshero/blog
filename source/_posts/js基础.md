@@ -81,3 +81,53 @@ console.log(f);// 123
 
 
 # 作用域
+
+
+1. 除了函数外，js是没有块级作用域。
+2. 作用域链：内部可以访问外部的变量，但是外部不能访问内部的变量。
+	 注意：如果内部有，优先查找到内部，如果内部没有就查找外部的。
+3. 注意声明变量是用var还是没有写（window.）
+4. 注意：js有变量提升的机制【变量悬挂声明】
+5. 优先级：声明变量 > 声明普通函数 > 参数 > 变量提升
+
+```js
+function c() {
+  var b = 1;
+  function a() {
+    console.log(b); //undefined
+    var b = 2;
+    console.log(b); //2
+  }
+  a();
+  console.log(b); //1
+}
+c();
+```
+
+```js
+var name = "a";
+(function () {
+  if (typeof name == "undefined") {
+    var name = "b";
+    console.log("111" + name);
+  } else {
+    console.log("222" + name);
+  }
+})();
+// "a" -> AO里面变量提升 'undefined'-> "b"
+
+//111b
+```
+
+
+```js
+function fun(a) {
+  var a = 10;
+  function a() {}
+  console.log(a);
+}
+fun(100);
+
+// 10   100 -> function a(){}-> 10
+
+```
