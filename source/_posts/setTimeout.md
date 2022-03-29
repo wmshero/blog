@@ -1,8 +1,8 @@
 ---
 title: setTimeout
 date: 2022-03-13 21:27:58
-tags: ['js','setTimeout']
-categories: js
+tags: ['javascript','setTimeout']
+categories: javascript
 ---
 
 小试一题： 0-99的乱序输出，如何改成顺序输出
