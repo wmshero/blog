@@ -1,0 +1,170 @@
+< !DOCTYPE html >
+    <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <title>Document</title>
+
+                        <style>
+                            .container{
+                                width:100vw;
+                                height:100vh;
+                            }
+                            .container .content{
+                                display:flex;
+                            }
+                            .content .left{
+                                width:200px;
+                                height:100%;
+                            }
+                            .content .left .tab{
+                                display:flex;
+                                flex-direction:column;
+                            }
+                            .ideBox{
+                                flex:1;
+                                display:flex;
+                                flex-direction:column;
+                            }
+                            .ideBox .header{
+                                height:40px;
+                                width:100%
+                            }
+                            .ideBox .footer .resultBox{
+
+                            }
+                            .resultHeader{
+                                display:flex;
+                                 justify-content:space-between;
+                                 align-items:center;
+                            }
+                            .resultTab{
+                                display:flex;
+                            }
+                            .runCodeBtn{
+                                color:#fff;
+                                background:bule;
+                                width:50px;
+                                height:30px;
+                            }
+                            .inputData{
+                                border:1px solid #ccc;
+                                border-radius:4px;
+                                width:100%;
+                                height:100px;
+                            }
+                            .footer{
+                                display:flex;
+                            }
+                            .footerLeft{
+                                justify - self:start;
+                            }
+                            .flexCenter{
+                                flex:1;
+                            }
+                            .flexRight{
+                                justify - self:end;
+                            }
+                            .iconBox{
+                                display:flex;
+                             flex-direction:column;
+                             align-items:center;
+                              justify-content:center;
+                            }
+                            img{
+                                width:20px;
+                                height:26px;
+                            }
+                        </style>
+</head>
+
+                    <body>
+                        <div class="container">
+                            <div class="content">
+                                <div class="left">
+                                    <div class="tab">
+                                        <div class="title">
+                                            标题
+                                        </div>
+                                        <div class="desc">
+                                            题目描述
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ideBox">
+                                    <div class='header'>
+                                        <select>
+                                            <option value="js">js</option>
+                                            <option value="c">C</option>
+                                            <option value="java">java</option>
+                                            <option value="php">php</option>
+                                        </select>
+                                    </div>
+                                    <div class='codeBox'>
+                                        code
+                                    </div>
+                                    <div class='footer'>
+                                        <div class='resultBox'>
+                                            <div class='resultHeader'>
+                                                <div class='resultTab'>
+                                                    <div class='inputTab'>输入</div>
+                                                    <div class='outputTab'>输出</div>
+                                                </div>
+                                                <button class="runCodeBtn">运行代码</button>
+                                            </div>
+                                            <TextArea class="inputData" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <div class="footerLeft">
+                                    <div class="iconBox">
+                                        <img src="leave.png" />
+                                        <span>麦克风</span>
+                                    </div>
+                                    <div class="iconBox">
+                                        <img src="leave.png" />
+                                        <span>摄像头</span>
+                                    </div>
+                                </div>
+                                <div class="footerCenter">
+                                    <div class="iconBox">
+                                        <img src="leave.png" />
+                                        <span>参会人</span>
+                                    </div>
+                                    <div class="iconBox">
+                                        <img src="leave.png" />
+                                        <span>聊天</span>
+                                    </div>
+                                    <div class="iconBox">
+                                        <img src="leave.png" />
+                                        <span>代码审核</span>
+                                    </div>
+                                    <div class="iconBox">
+                                        <img src="leave.png" />
+                                        <span>共享</span>
+                                    </div>
+                                    <div class="iconBox">
+                                        <img src="leave.png" />
+                                        <span>表情</span>
+                                    </div>
+                                    <div class="iconBox">
+                                        <img src="leave.png" />
+                                        <span>更多</span>
+                                    </div>
+
+                                </div>
+                                <div class="footerRight">
+                                    <div class="iconBox">
+                                        <img src="leave.png" />
+                                        <span>离开</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </body>
+
+</html>
